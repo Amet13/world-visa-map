@@ -15,6 +15,8 @@ cd world-visa-map/
 ./generate.bash
 ```
 
+See demo: https://amet13.name/world-visa-map/index.html
+
 TODO
 ----
 
@@ -23,7 +25,6 @@ TODO
 * Host on GitHub Pages
 * Generate maps for other countries
 * Explore some countries
-* Fix bug with Australia nad some countries
 * Makefile
 
 Countries do not use

@@ -86,4 +86,4 @@ geojson = L.geoJson(countriesData, {
 	onEachFeature: onEachFeature
 }).addTo(map);
 
-map.attributionControl.addAttribution('Some text with <a href="http://localhost/">LINK</a>');
+map.attributionControl.addAttribution('<a href="https://github.com/Amet13/world-visa-map">Source on GitHub</a>');
