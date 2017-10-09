@@ -15,7 +15,10 @@ cd world-visa-map/
 ./generate.bash
 ```
 
-See demo: https://amet13.name/world-visa-map/index.html
+Demo
+----
+
+https://rawgit.com/Amet13/world-visa-map/master/index.html
 
 TODO
 ----
