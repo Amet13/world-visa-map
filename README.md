@@ -10,10 +10,9 @@ Example for CentOS:
 ```
 yum -y install bzip2 fontconfig npm
 npm install phantomjs -g
-git clone repo
+git clone https://github.com/Amet13/world-visa-map
 cd world-visa-map/
-phantomjs getdata.js ; grep "For passport" output.txt | awk -F "\"" '{print $(NF-1) $(NF)}' | sed -r 's/>/, \"/g; s/<\/td, //g' > dataset.csv ; rm -f output.txt
-bash generate.bash
+./generate.bash
 ```
 
 TODO

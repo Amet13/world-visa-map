@@ -18,11 +18,19 @@ while read line; do
         "visa-free" | "Visa waiver on arrival")
             STATE_NUM=2
             ;;
-        "visa on arrival" | "visa on arrival / eVisa")
+        "visa on arrival")
             STATE_NUM=3
             ;;
-        "visa required" | "visa required / eVisa")
+        "visa on arrival / eVisa")
+            STATE_NUM=3
+            STATE="visa on arrival, eVisa"
+            ;;
+        "visa required")
             STATE_NUM=4
+            ;;
+        "visa required / eVisa")
+            STATE_NUM=4
+            STATE="visa required, eVisa"
             ;;
         *)
             STATE_NUM=5
