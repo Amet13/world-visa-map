@@ -5,8 +5,8 @@ INPUT_FILE="countries.geo.iso.json"
 DATASET_FILE="dataset.csv"
 
 echo "var countriesData = {
-	\"type\":\"FeatureCollection\",
-	\"features\":[" > ${OUTPUT_FILE}
+    \"type\":\"FeatureCollection\",
+    \"features\":[" > ${OUTPUT_FILE}
 
 while read line; do
     COUNTRY=$(echo "${line}" | awk -F"\"" '{print $8}')
