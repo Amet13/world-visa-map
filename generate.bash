@@ -55,6 +55,8 @@ while read line; do
             STATE_NUM=4
             STATE="visa required"
             ;;
+	*)
+	    ;;
     esac
 
     echo "		${line}" | sed -r "s/properties\":\{/properties\":\{\"status\":${STATE_NUM},\"data\":\"${STATE}\",/g" >> ${OUTPUT_FILE}
