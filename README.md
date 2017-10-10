@@ -1,6 +1,8 @@
 world-visa-map
 ==============
 
+[![License](https://img.shields.io/badge/license-GNU_GPLv3-red.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
+
 Interactive world map which shows visa policy for russian citizens
 
 How to self host?
@@ -20,70 +22,69 @@ Demo
 
 https://rawgit.com/Amet13/world-visa-map/master/index.html
 
-TODO
-----
+Countries not showing on map or without info
+--------------------------------------------
 
-* TravisCI autobuild (docker)
-* Add license
-* Host on GitHub Pages
-* Generate maps for other countries
-* Explore some countries
-* Makefile
-
-Countries do not use
---------------------
-
-```
-Andorra (AD)
-Antartica (AQ)
-Antigua and Barbuda (AG)
-Barbados (BB)
-Bahrain (BH)
-Bermuda (BM)
-Cape Verde (CV)
-Dominica (DM)
-Western Sahara (EH)
-Falkland Islands (Malvinas) (FK)
-Micronesia, Federated States of (FM)
-Grenada (GD)
-French Guiana (GF)
-Greenland (GL)
-Hong Kong (HK)
-Kiribati (KI)
-Comoros (KM)
-Saint Kitts and Nevis (KN)
-Saint Lucia (LC)
-Liechtenstein (LI)
-Monaco (MC)
-Marshall Islands (MH)
-Macao (MO)
-Mauritius (MU)
-Maldives (MV)
-New Caledonia (NC)
-Nauru (NR)
-Puerto Rico (PR)
-Palau (PW)
-Seychelles (SC)
-Singapore (SG)
-San Marino (SM)
-Sao Tome and Principe (ST)
-French Southern Territories (TF)
-Tonga (TO)
-Tuvalu (TV)
-Holy See (Vatican City State) (VA)
-Saint Vincent and the Grenadines (VC)
-Samoa (WS)
-Somaliland
-Northern Cyprus
-```
+| Country                          | ISO code | Status
+| -------------------------------- | -------- | ----------------- |
+| Andorra                          | AD       | **visa required** |
+| Antartica                        | AQ       | N/A               |
+| Antigua and Barbuda              | AG       | *visa-free*       |
+| Barbados                         | BB       | *visa-free*       |
+| Bahrain                          | BH       | visa on arrival   |
+| Bermuda                          | BM       | N/A               |
+| Cape Verde                       | CV       | visa on arrival   |
+| Dominica                         | DM       | visa on arrival   |
+| Western Sahara                   | EH       | N/A               |
+| Falkland Islands (Malvinas)      | FK       | N/A               |
+| Micronesia, Federated States of  | FM       | *visa-free*       |
+| Grenada                          | GD       | *visa-free*       |
+| French Guiana                    | GF       | N/A               |
+| Greenland                        | GL       | N/A               |
+| Hong Kong                        | HK       | *visa-free*       |
+| Kiribati                         | KI       | **visa required** |
+| Comoros                          | KM       | visa on arrival   |
+| Saint Kitts and Nevis            | KN       | *visa-free*       |
+| Saint Lucia                      | LC       | *visa-free*       |
+| Liechtenstein                    | LI       | **visa required** |
+| Monaco                           | MC       | **visa required** |
+| Marshall Islands                 | MH       | visa on arrival   |
+| Macao                            | MO       | *visa-free*       |
+| Mauritius                        | MU       | *visa-free*       |
+| Maldives                         | MV       | visa on arrival   |
+| New Caledonia                    | NC       | N/A               |
+| Nauru                            | NR       | visa on arrival   |
+| Puerto Rico                      | PR       | N/A               |
+| Palau                            | PW       | visa on arrival   |
+| Seychelles                       | SC       | *visa-free*       |
+| Singapore                        | SG       | **visa required** |
+| San Marino                       | SM       | **visa required** |
+| Sao Tome and Principe            | ST       | *visa-free*       |
+| French Southern Territories      | TF       | N/A               |
+| Tonga                            | TO       | visa on arrival   |
+| Tuvalu                           | TV       | visa on arrival   |
+| Holy See (Vatican City State)    | VA       | **visa required** |
+| Saint Vincent and the Grenadines | VC       | *visa-free*       |
+| Samoa                            | WS       | *visa-free*       |
+| Somaliland                       | N/A      | N/A               |
+| Northern Cyprus                  | N/A      | N/A               |
 
 Credits
 -------
 
-https://github.com/johan/world.geo.json/blob/master/countries.geo.json
+Original world map in GeoJSON format: https://github.com/johan/world.geo.json
 
-http://www.worldatlas.com/aatlas/ctycodes.htm
+UN to ISO codes converter: http://www.worldatlas.com/aatlas/ctycodes.htm
 
-https://github.com/tetrahedra/worldmap
+Example for Leaflet and GeoJSON: https://github.com/tetrahedra/worldmap
 
-https://www.passportindex.org/comparebyPassport.php?p1=ru&fl=&s=yes
+Data source: https://www.passportindex.org
+
+TODO
+----
+
+* TravisCI autobuild (docker)
+* Host on GitHub Pages
+* Generate maps for other countries
+* Explore some countries
+* Makefile
