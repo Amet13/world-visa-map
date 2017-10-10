@@ -1,7 +1,7 @@
 world-visa-map
 ==============
 
-[![License](https://img.shields.io/badge/license-GNU_GPLv3-red.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
+[![License](https://img.shields.io/badge/license-GNU_GPLv3-green.svg)](https://www.gnu.org/licenses/gpl-3.0.html)
 
 Interactive world map which shows visa policy for russian citizens
 
@@ -28,19 +28,13 @@ Countries not showing on map or without info
 | Country                          | ISO code | Status
 | -------------------------------- | -------- | ----------------- |
 | Andorra                          | AD       | **visa required** |
-| Antartica                        | AQ       | N/A               |
 | Antigua and Barbuda              | AG       | *visa-free*       |
 | Barbados                         | BB       | *visa-free*       |
 | Bahrain                          | BH       | visa on arrival   |
-| Bermuda                          | BM       | N/A               |
 | Cape Verde                       | CV       | visa on arrival   |
 | Dominica                         | DM       | visa on arrival   |
-| Western Sahara                   | EH       | N/A               |
-| Falkland Islands (Malvinas)      | FK       | N/A               |
 | Micronesia, Federated States of  | FM       | *visa-free*       |
 | Grenada                          | GD       | *visa-free*       |
-| French Guiana                    | GF       | N/A               |
-| Greenland                        | GL       | N/A               |
 | Hong Kong                        | HK       | *visa-free*       |
 | Kiribati                         | KI       | **visa required** |
 | Comoros                          | KM       | visa on arrival   |
@@ -52,22 +46,19 @@ Countries not showing on map or without info
 | Macao                            | MO       | *visa-free*       |
 | Mauritius                        | MU       | *visa-free*       |
 | Maldives                         | MV       | visa on arrival   |
-| New Caledonia                    | NC       | N/A               |
 | Nauru                            | NR       | visa on arrival   |
-| Puerto Rico                      | PR       | N/A               |
 | Palau                            | PW       | visa on arrival   |
 | Seychelles                       | SC       | *visa-free*       |
 | Singapore                        | SG       | **visa required** |
 | San Marino                       | SM       | **visa required** |
 | Sao Tome and Principe            | ST       | *visa-free*       |
-| French Southern Territories      | TF       | N/A               |
 | Tonga                            | TO       | visa on arrival   |
 | Tuvalu                           | TV       | visa on arrival   |
 | Holy See (Vatican City State)    | VA       | **visa required** |
 | Saint Vincent and the Grenadines | VC       | *visa-free*       |
 | Samoa                            | WS       | *visa-free*       |
-| Somaliland                       | N/A      | N/A               |
-| Northern Cyprus                  | N/A      | N/A               |
+| Somaliland                       | N/A      | visa on arrival   |
+| Northern Cyprus                  | N/A      | visa on arrival   |
 
 Credits
 -------

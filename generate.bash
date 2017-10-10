@@ -46,6 +46,17 @@ while read line; do
             STATE="unknown"
             ;;
     esac
+    case $COUNTRY in
+        "AQ" | "EH")
+            STATE_NUM=2
+            STATE="visa-free"
+            ;;
+        "TF" | "BM" | "FK" | "GL" | "GF" | "NC" | "PR")
+            STATE_NUM=4
+            STATE="visa required"
+            ;;
+    esac
+
     echo "		${line}" | sed -r "s/properties\":\{/properties\":\{\"status\":${STATE_NUM},\"data\":\"${STATE}\",/g" >> ${OUTPUT_FILE}
 done < <(grep "properties" ${INPUT_FILE} | grep -v "//")
 
