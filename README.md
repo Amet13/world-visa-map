@@ -22,8 +22,8 @@ Demo
 
 https://rawgit.com/Amet13/world-visa-map/master/index.html
 
-Countries not showing on map or without info
---------------------------------------------
+Countries not showing on map
+----------------------------
 
 | Country                          | ISO code | Status
 | -------------------------------- | -------- | ----------------- |
@@ -57,8 +57,6 @@ Countries not showing on map or without info
 | Holy See (Vatican City State)    | VA       | **visa required** |
 | Saint Vincent and the Grenadines | VC       | *visa-free*       |
 | Samoa                            | WS       | *visa-free*       |
-| Somaliland                       | N/A      | visa on arrival   |
-| Northern Cyprus                  | N/A      | visa on arrival   |
 
 Credits
 -------
@@ -71,11 +69,11 @@ Example for Leaflet and GeoJSON: https://github.com/tetrahedra/worldmap
 
 Data source: https://www.passportindex.org
 
+Where to edit map: http://geojson.io
+
 TODO
 ----
 
 * TravisCI autobuild (docker)
-* Host on GitHub Pages
+* Host on GitHub Pages demo
 * Generate maps for other countries
-* Explore some countries
-* Makefile
