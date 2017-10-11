@@ -40,6 +40,8 @@ Credits
 
 Original world map in GeoJSON format: https://github.com/johan/world.geo.json
 
+By countries: https://github.com/greencoder/geobatch
+
 UN to ISO codes converter: http://www.worldatlas.com/aatlas/ctycodes.htm
 
 Example for Leaflet and GeoJSON: https://github.com/tetrahedra/worldmap
