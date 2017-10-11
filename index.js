@@ -9,13 +9,13 @@ Highcharts.mapChart('container', {
     },
 
     subtitle: {
-        text: ''
+        text: 'Source on <a href="https://github.com/Amet13/world-visa-map">GitHub</a>'
     },
 
     mapNavigation: {
         enabled: true,
         buttonOptions: {
-            verticalAlign: 'bottom'
+            verticalAlign: 'top'
         }
     },
 
@@ -67,7 +67,7 @@ Highcharts.mapChart('container', {
             name: '(9) unknown'
         }]
     },
-    
+
     series: [{
         data: data,
         name: 'Is visa required?',
@@ -83,9 +83,9 @@ Highcharts.mapChart('container', {
 });
 
 // tell the embed parent frame the height of the content
-/*if (window.parent && window.parent.parent){
-    window.parent.parent.postMessage(["resultsFrame", {
+if (window.parent && window.parent.parent){
+     window.parent.parent.postMessage(["resultsFrame", {
       height: document.body.getBoundingClientRect().height,
       slug: "o6mp8ra7"
     }], "*")
-}*/
+}
