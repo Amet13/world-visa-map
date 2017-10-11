@@ -28,11 +28,8 @@ Countries not showing on map
 | Country                          | ISO code | Status
 | -------------------------------- | -------- | ----------------- |
 | Hong Kong                        | HK       | *visa-free*       |
-| Liechtenstein                    | LI       | **visa required** |
 | Monaco                           | MC       | **visa required** |
 | Macao                            | MO       | *visa-free*       |
-| Singapore                        | SG       | **visa required** |
-| San Marino                       | SM       | **visa required** |
 | Holy See (Vatican City State)    | VA       | **visa required** |
 
 Credits
