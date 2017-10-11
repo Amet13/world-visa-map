@@ -27,30 +27,13 @@ Countries not showing on map
 
 | Country                          | ISO code | Status
 | -------------------------------- | -------- | ----------------- |
-| Micronesia, Federated States of  | FM       | *visa-free*       |
-| Grenada                          | GD       | *visa-free*       |
 | Hong Kong                        | HK       | *visa-free*       |
-| Kiribati                         | KI       | **visa required** |
-| Comoros                          | KM       | visa on arrival   |
-| Saint Kitts and Nevis            | KN       | *visa-free*       |
-| Saint Lucia                      | LC       | *visa-free*       |
 | Liechtenstein                    | LI       | **visa required** |
 | Monaco                           | MC       | **visa required** |
-| Marshall Islands                 | MH       | visa on arrival   |
 | Macao                            | MO       | *visa-free*       |
-| Mauritius                        | MU       | *visa-free*       |
-| Maldives                         | MV       | visa on arrival   |
-| Nauru                            | NR       | visa on arrival   |
-| Palau                            | PW       | visa on arrival   |
-| Seychelles                       | SC       | *visa-free*       |
 | Singapore                        | SG       | **visa required** |
 | San Marino                       | SM       | **visa required** |
-| Sao Tome and Principe            | ST       | *visa-free*       |
-| Tonga                            | TO       | visa on arrival   |
-| Tuvalu                           | TV       | visa on arrival   |
 | Holy See (Vatican City State)    | VA       | **visa required** |
-| Saint Vincent and the Grenadines | VC       | *visa-free*       |
-| Samoa                            | WS       | *visa-free*       |
 
 Credits
 -------
