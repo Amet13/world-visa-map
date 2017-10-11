@@ -22,21 +22,6 @@ Demo
 
 https://rawgit.com/Amet13/world-visa-map/master/index.html
 
-Credits
--------
-
-Original world map in GeoJSON format: https://github.com/johan/world.geo.json
-
-By countries: https://github.com/greencoder/geobatch
-
-UN to ISO codes converter: http://www.worldatlas.com/aatlas/ctycodes.htm
-
-Example for Leaflet and GeoJSON: https://github.com/tetrahedra/worldmap
-
-Data source: https://www.passportindex.org
-
-Where to edit map: http://geojson.io
-
 TODO
 ----
 

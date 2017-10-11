@@ -1,11 +1,12 @@
 #!/bin/bash
 
-OUTPUT_FILE="data.js"
-INPUT_FILE="countries.txt"
-DATASET_FILE="dataset.csv"
-TEMP_FILE="output.txt"
+OUTPUT_FILE="js/data.js"
+INPUT_FILE="csv/countries.csv"
+DATASET_FILE="csv/dataset.csv"
+TEMP_FILE="/tmp/output.txt"
+PHANTOMJS_FILE="js/getdata.js"
 
-phantomjs getdata.js && \
+phantomjs ${PHANTOMJS_FILE} && \
 grep "For passport" ${TEMP_FILE} | \
 awk -F "\"" '{print $(NF-1) $(NF)}' | \
 sed -r 's/>/, \"/g; s/<\/td, //g' > ${DATASET_FILE} && \
