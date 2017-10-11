@@ -1,23 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Visa map for russian citizens</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World visa map for russian citizens</title>
 </head>
+
 <body>
-	<div id="map">
-		<svg width="300" height="1000">
-			<text x="20" y="600">Hong Kong (visa-free)</text>
-			<text x="20" y="620">Monaco (visa required)</text>
-			<text x="20" y="640">Macao (visa-free)</text>
-			<text x="20" y="660">Holy See (Vatican City State) (visa required)</text>
-		</svg>
-	</div>
-	<link rel="stylesheet" href="css/style.css" />
-	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
-	<script type="text/javascript" src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
-	<script type="text/javascript" src="js/countries.data.js"></script>
-	<script type="text/javascript" src="js/settings.js"></script>
+  <div id="container"></div>
+  <script src="https://code.highcharts.com/maps/highmaps.js"></script>
+  <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
+  <script src="https://code.highcharts.com/mapdata/custom/world-highres3.js"></script>
+  <script type="text/javascript" src="data.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+  <link rel="stylesheet" href="style.css" />
 </body>
 </html>

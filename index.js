@@ -1,0 +1,109 @@
+// Create the chart
+Highcharts.mapChart('container', {
+    chart: {
+        map: 'custom/world-highres3'
+    },
+
+    title: {
+        text: 'World visa map for russian citizens'
+    },
+
+    subtitle: {
+        text: ''
+    },
+
+    mapNavigation: {
+        enabled: true,
+        buttonOptions: {
+            verticalAlign: 'bottom'
+        }
+    },
+
+//    colorAxis: {
+//        min: 0
+//    },
+
+    colorAxis: {
+        dataClasses: [{
+            from: 1,
+            to: 1,
+            color: 'yellow',
+            name: 'eTA'
+        }, {
+            from: 2,
+            to: 2,
+            color: 'yellow',
+            name: 'e-Visa'
+        }, {
+            from: 3,
+            to: 3,
+            color: 'green',
+            name: 'visa-free',
+        }, {
+            from: 4,
+            to: 4,
+            color: 'green',
+            name: 'Visa waiver on arrival'
+        }, {
+            from: 5,
+            to: 5,
+            color: 'blue',
+            name: 'visa on arrival'
+        }, {
+            from: 6,
+            to: 6,
+            color: 'blue',
+            name: 'visa on arrival / eVisa',
+        }, {
+            from: 7,
+            to: 7,
+            color: 'red',
+            name: 'visa required'
+        }, {
+            from: 8,
+            to: 8,
+            color: 'red',
+            name: 'visa required / eVisa'
+        }, {
+            from: 9,
+            to: 9,
+            color: 'black',
+            name: 'unknown'
+        }]
+    },
+    
+    series: [{
+        data: data,
+        name: 'Is visa required?',
+        states: {
+            hover: {
+                color: '#BADA55'
+            }
+        },
+        dataLabels: {
+            enabled: true,
+            format: '{point.name}'
+        }
+    }],
+    /*series: [{
+        data: data,
+        name: 'psp',
+        states: {
+            hover: {
+                color: '#123'
+            }
+        },
+        dataLabels: {
+            enabled: true,
+            format: '{point.name}'
+        }
+    }]*/
+});
+
+// tell the embed parent frame the height of the content
+if (window.parent && window.parent.parent){
+    window.parent.parent.postMessage(["resultsFrame", {
+      height: document.body.getBoundingClientRect().height,
+      slug: "o6mp8ra7"
+    }], "*")
+}
