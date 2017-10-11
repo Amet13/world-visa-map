@@ -22,16 +22,6 @@ Demo
 
 https://rawgit.com/Amet13/world-visa-map/master/index.html
 
-Countries not showing on map
-----------------------------
-
-| Country                          | ISO code | Status
-| -------------------------------- | -------- | ----------------- |
-| Hong Kong                        | HK       | *visa-free*       |
-| Monaco                           | MC       | **visa required** |
-| Macao                            | MO       | *visa-free*       |
-| Holy See (Vatican City State)    | VA       | **visa required** |
-
 Credits
 -------
 
