@@ -27,12 +27,6 @@ Countries not showing on map
 
 | Country                          | ISO code | Status
 | -------------------------------- | -------- | ----------------- |
-| Andorra                          | AD       | **visa required** |
-| Antigua and Barbuda              | AG       | *visa-free*       |
-| Barbados                         | BB       | *visa-free*       |
-| Bahrain                          | BH       | visa on arrival   |
-| Cape Verde                       | CV       | visa on arrival   |
-| Dominica                         | DM       | visa on arrival   |
 | Micronesia, Federated States of  | FM       | *visa-free*       |
 | Grenada                          | GD       | *visa-free*       |
 | Hong Kong                        | HK       | *visa-free*       |
