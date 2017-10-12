@@ -64,7 +64,12 @@ Highcharts.mapChart('container', {
             from: 9,
             to: 9,
             color: 'black',
-            name: '(9) unknown'
+            name: '(9) unknown',
+        }, {
+            from: 10,
+            to: 10,
+            color: 'gray',
+            name: '(10) Russia'
         }]
     },
 

@@ -18,7 +18,7 @@ echo "var data = [" >> ${OUTPUT_FILE}
 
 while read COUNTRY; do
     STATE=$(grep "${COUNTRY}" ${DATASET_FILE} | awk -F\" '{print $2}')
-    case $STATE in
+    case ${STATE} in
         "eTA") #yellow
             STATE_NUM=1
             ;;
@@ -46,6 +46,22 @@ while read COUNTRY; do
         *)
             STATE_NUM=9
             STATE="unknown"
+            ;;
+    esac
+    case ${COUNTRY} in
+        "EH")
+            STATE_NUM=3
+            STATE="visa-free"
+            ;;
+        "GL" | "PR" | "GB")
+            STATE_NUM=7
+            STATE="visa required"
+            ;;
+        "RU")
+            STATE_NUM=10
+            STATE="You are here"
+            ;;
+        *)
             ;;
     esac
 
