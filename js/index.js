@@ -80,6 +80,14 @@ Highcharts.mapChart('container', {
             format: '{point.name}'
         }
     }],
+
+    exporting: {
+        enabled: false
+    },
+
+    credits: {
+        enabled: false
+    }
 });
 
 // tell the embed parent frame the height of the content

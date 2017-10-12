@@ -27,4 +27,4 @@ TODO
 
 * TravisCI autobuild (docker)
 * Host on GitHub Pages demo
-* Generate maps for other countries
+* Generate maps for other countries and add list for choosing countries
