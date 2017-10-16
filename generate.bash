@@ -45,21 +45,17 @@ while read COUNTRY; do
             ;;
         *)
             STATE_NUM=9
-            STATE="unknown"
             ;;
     esac
     case ${COUNTRY} in
         "EH")
             STATE_NUM=3
-            STATE="visa-free"
             ;;
         "GL" | "PR" | "GB")
             STATE_NUM=7
-            STATE="visa required"
             ;;
         "RU")
             STATE_NUM=10
-            STATE="You are here"
             ;;
         *)
             ;;
