@@ -1,0 +1,7 @@
+language: generic
+
+services:
+  - docker
+
+script:
+  - docker run -ti -centos:7 bash -c 'yum -y install bzip2 fontconfig npm ; npm install phantomjs -g ; git clone https://github.com/Amet13/world-visa-map ; cd world-visa-map/ ; ./generate.bash'
