@@ -10,7 +10,7 @@ How to self host?
 
 Example for CentOS:
 ```
-yum -y install bzip2 fontconfig npm
+yum -y install epel-release ; yum -y install bzip2 fontconfig git npm openssl
 npm install phantomjs -g
 git clone https://github.com/Amet13/world-visa-map
 cd world-visa-map/ ; ./generate.bash
