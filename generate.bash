@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 OUTPUT_FILE="js/data.js"
 INPUT_FILE="csv/countries.csv"
 DATASET_FILE="csv/dataset.csv"
