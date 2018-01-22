@@ -5,7 +5,7 @@ Highcharts.mapChart('container', {
     },
 
     title: {
-        text: 'World visa map for russian citizens'
+        text: 'World visa map for russian citizens in 2018'
     },
 
     subtitle: {
@@ -21,55 +21,25 @@ Highcharts.mapChart('container', {
 
     colorAxis: {
         dataClasses: [{
+            from: 0,
+            to: 0,
+            color: 'red',
+            name: '(0) visa required'
+        }, {
             from: 1,
             to: 1,
-            color: 'yellow',
-            name: '(1) eTA'
+            color: 'blue',
+            name: '(1) visa can be obtained on arrival ',
         }, {
             from: 2,
             to: 2,
             color: 'yellow',
-            name: '(2) e-Visa'
+            name: '(2) eTA required'
         }, {
             from: 3,
             to: 3,
             color: 'green',
-            name: '(3) visa-free',
-        }, {
-            from: 4,
-            to: 4,
-            color: 'green',
-            name: '(4) Visa waiver on arrival'
-        }, {
-            from: 5,
-            to: 5,
-            color: 'blue',
-            name: '(5) visa on arrival'
-        }, {
-            from: 6,
-            to: 6,
-            color: 'blue',
-            name: '(6) visa on arrival / eVisa',
-        }, {
-            from: 7,
-            to: 7,
-            color: 'red',
-            name: '(7) visa required'
-        }, {
-            from: 8,
-            to: 8,
-            color: 'red',
-            name: '(8) visa required / eVisa'
-        }, {
-            from: 9,
-            to: 9,
-            color: 'black',
-            name: '(9) unknown',
-        }, {
-            from: 10,
-            to: 10,
-            color: 'gray',
-            name: '(10) Russia'
+            name: '(3) visa-free'
         }]
     },
 
