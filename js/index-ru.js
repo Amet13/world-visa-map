@@ -5,7 +5,7 @@ Highcharts.mapChart('container', {
     },
 
     title: {
-        text: 'World visa map for russian citizens in 2018'
+        text: 'World visa map for RU citizens in 2018'
     },
 
     subtitle: {

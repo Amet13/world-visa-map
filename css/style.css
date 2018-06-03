@@ -10,3 +10,7 @@
   text-align: center;
   color: gray;
 }
+.column {
+    float: left;
+    width: 50%;
+}
