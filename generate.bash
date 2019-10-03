@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -e
 
 gen_ru() {
     DATA_RU="js/ru.js"
@@ -30,4 +30,3 @@ gen_ua() {
 
 gen_ru
 gen_ua
-exit 0
